@@ -1,0 +1,23 @@
+# Core PDF Parsing & Layout Extraction
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+PyMuPDF>=1.24.0
+
+# OCR Engines (Fallback for scanned/image-based PDFs)
+easyocr>=1.7.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Data Manipulation & Formatted Export
+pandas>=2.2.0
+openpyxl>=3.1.0
+
+# Non-LLM Classification (Heuristics & Traditional Machine Learning)
+scikit-learn>=1.4.0
+
+# Web Application Dashboard
+streamlit>=1.35.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0
+

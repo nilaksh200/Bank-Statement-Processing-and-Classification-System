@@ -1,0 +1,31 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data and Artifacts
+data/temp/*
+!data/temp/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+classification/models/*.pkl
+classification/models/*.joblib
+!classification/models/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+

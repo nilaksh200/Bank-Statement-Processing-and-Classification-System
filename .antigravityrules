@@ -1,0 +1,12 @@
+# Project Rules: Bank Statement Processing & Classification System
+
+## 1. Subagent Definitions
+- **IngestionSubAgent**: Manages system structure, dependency setup, and PDF auto-detection.
+- **ExtractionSubAgent**: Handles layout parsing (pdfplumber/fitz) and OCR fallback (EasyOCR/pytesseract).
+- **ClassificationSubAgent**: Manages non-LLM transaction categorization (Regex Heuristics + TF-IDF/ML).
+- **UISubAgent**: Manages Streamlit UI views and Excel/CSV exporting.
+
+## 2. Strict Non-LLM Constraint
+- NEVER import or use LLMs (OpenAI, LangChain, Ollama, etc.) for extraction or classification.
+- Rely strictly on regular expressions, heuristic rules, and traditional scikit-learn ML models.
+

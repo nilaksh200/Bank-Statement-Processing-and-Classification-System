@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "name": "Salary / Income",
+      "regex": "(?i)(salary|payroll|direct deposit|stipend|wages)",
+      "keywords": ["salary", "payroll", "direct deposit", "stipend", "wages", "bonus"]
+    },
+    {
+      "name": "Utilities & Bills",
+      "regex": "(?i)(electricity|water|gas|broadband|wifi|mobile|recharge|bill)",
+      "keywords": ["electricity", "water", "gas", "broadband", "wifi", "mobile", "recharge", "bill", "electric"]
+    },
+    {
+      "name": "Groceries & Supermarket",
+      "regex": "(?i)(mart|supermarket|grocery|trader|walmart|whole foods)",
+      "keywords": ["mart", "supermarket", "grocery", "trader", "walmart", "whole foods", "safeway", "kroger"]
+    },
+    {
+      "name": "Dining & Food",
+      "regex": "(?i)(restaurant|cafe|swiggy|zomato|starbucks|uber eats|mcdonald)",
+      "keywords": ["restaurant", "cafe", "swiggy", "zomato", "starbucks", "uber eats", "mcdonald", "burger", "pizza"]
+    },
+    {
+      "name": "Transfers & UPI",
+      "regex": "(?i)(upi|neft|rtgs|imps|zelle|venmo|transfer)",
+      "keywords": ["upi", "neft", "rtgs", "imps", "zelle", "venmo", "transfer", "p2p"]
+    },
+    {
+      "name": "ATM & Cash",
+      "regex": "(?i)(atm|cash withdrawal)",
+      "keywords": ["atm", "cash withdrawal", "cash w/d", "atm w/d"]
+    },
+    {
+      "name": "Investment & Insurance",
+      "regex": "(?i)(mutual fund|lic|insurance|zerodha|sip|stock)",
+      "keywords": ["mutual fund", "lic", "insurance", "zerodha", "sip", "stock", "vanguard", "fidelity"]
+    },
+    {
+      "name": "Rent & Housing",
+      "regex": "(?i)(rent|lease|mortgage|housing|landlord|maintenance)",
+      "keywords": ["rent", "lease", "mortgage", "housing", "landlord", "maintenance"]
+    },
+    {
+      "name": "Entertainment & Subscriptions",
+      "regex": "(?i)(netflix|spotify|prime|hulu|disney|theatre|cinema|movie)",
+      "keywords": ["netflix", "spotify", "prime", "hulu", "disney", "theatre", "cinema", "movie", "sub"]
+    },
+    {
+      "name": "Travel & Transportation",
+      "regex": "(?i)(uber|lyft|airline|flight|metro|transit|railway|train|fuel|petrol|gas station|shell)",
+      "keywords": ["uber", "lyft", "airline", "flight", "metro", "transit", "railway", "train", "fuel", "petrol", "gas station", "shell"]
+    },
+    {
+      "name": "Health & Medical",
+      "regex": "(?i)(pharmacy|hospital|clinic|doctor|medical|health|cvs|walgreens|dental)",
+      "keywords": ["pharmacy", "hospital", "clinic", "doctor", "medical", "health", "cvs", "walgreens", "dental"]
+    },
+    {
+      "name": "Bank Fees & Charges",
+      "regex": "(?i)(fee|charge|interest charge|overdraft|service charge|penalty)",
+      "keywords": ["fee", "charge", "interest charge", "overdraft", "service charge", "penalty"]
+    }
+  ],
+  "default_category": "Uncategorized"
+}
+
